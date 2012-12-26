@@ -1,0 +1,61 @@
+# info logging
+12/21/12 11:10:55PM  INFO =======================================
+12/21/12 11:10:55PM  INFO Starting logger at 2012-12-21 23:10:55!
+12/21/12 11:10:55PM  INFO Read 10 values from the data file
+12/21/12 11:10:55PM  INFO Connected to database, got a cursor.
+12/21/12 11:10:55PM  INFO Read 24 record from the database type <type 'dict'>!
+12/21/12 11:10:55PM  INFO There are 5 terms that matched: set([u'Jason Testdemo', u'fmtest@gmail.com', u'Sonia Kay', u'6175351641', u'Jones vs. Smythe'])
+12/21/12 11:10:55PM  INFO There are 5 terms that did not match: set([u'12/22/2012 15:00', u"Plaintiff's Firm", u'179 Lincoln Street, Boston, MA 02109', u'yesterday', u'444'])
+# debug logging
+12/21/12 11:13:44PM  INFO =======================================
+12/21/12 11:13:44PM  INFO Starting logger at 2012-12-21 23:13:44!
+12/21/12 11:13:44PM  INFO Read 10 values from the data file
+12/21/12 11:13:44PM  INFO Connected to database, got a cursor.
+12/21/12 11:13:44PM  DEBUG data key is txtPhone and value is 6175351641.
+12/21/12 11:13:44PM  DEBUG data key is txtPlaintiffFirm and value is Plaintiff's Firm.
+12/21/12 11:13:44PM  DEBUG data key is taDepoLocalAddress and value is 179 Lincoln Street, Boston, MA 02109.
+12/21/12 11:13:44PM  DEBUG data key is txtDepoDate and value is 12/22/2012 15:00.
+12/21/12 11:13:44PM  DEBUG data key is txtdateofloss and value is yesterday.
+12/21/12 11:13:44PM  DEBUG data key is txtclaimsnumber and value is 444.
+12/21/12 11:13:44PM  DEBUG data key is txtWitnessName and value is Jason Testdemo.
+12/21/12 11:13:44PM  DEBUG data key is txtEmail and value is fmtest@gmail.com.
+12/21/12 11:13:44PM  DEBUG data key is txtCaseCaption and value is Jones vs. Smythe.
+12/21/12 11:13:44PM  DEBUG data key is txtNoteAtty and value is Sonia Kay.
+12/21/12 11:13:44PM  INFO Read 24 record from the database type <type 'dict'>!
+12/21/12 11:13:44PM  DEBUG db data key is noticingAttorney and value is Sonia Kay.
+12/21/12 11:13:44PM  DEBUG db data key is lexM1Map_id and value is 3.
+12/21/12 11:13:44PM  DEBUG db data key is interactRealTime and value is 0.
+12/21/12 11:13:44PM  DEBUG db data key is id and value is 169.
+12/21/12 11:13:44PM  DEBUG db data key is videoConference and value is None.
+12/21/12 11:13:44PM  DEBUG db data key is additionalInfo and value is additional_plaintiff_needed=No
+# note this aggregate field - it's why some tests fail
+claims_attorney=Doug Hundman - doug.hundman@XXXfinancial.com
+claims_number=444
+date_of_loss=October 23rd
+Additional information or notes=this is a test of python verify DB script
+plaintiff_firm_name=Plaintiff's Firm
+state_of_case=Alaska
+title=Attorney
+Final Transcript Turnaround=Standard Delivery 8-10 days
+ConferenceRoom=Conference room  for less than 5 participants
+.
+12/21/12 11:13:44PM  DEBUG db data key is roughAscii and value is None.
+12/21/12 11:13:44PM  DEBUG db data key is deponent and value is Jason Testdemo.
+12/21/12 11:13:44PM  DEBUG db data key is firmName and value is Wunderlich Law Office.
+12/21/12 11:13:44PM  DEBUG db data key is conferenceRoom and value is 1.
+12/21/12 11:13:44PM  DEBUG db data key is noticeOfDeposition_id and value is 208.
+12/21/12 11:13:44PM  DEBUG db data key is submitterPhone and value is 6175351641.
+12/21/12 11:13:44PM  DEBUG db data key is status and value is DEQUEUED.
+12/21/12 11:13:44PM  DEBUG db data key is submitterName and value is frank dimbowicz.
+12/21/12 11:13:44PM  DEBUG db data key is foreignLanguageInterpreter and value is 0.
+12/21/12 11:13:44PM  DEBUG db data key is videoStreamOverInternet and value is None.
+12/21/12 11:13:44PM  DEBUG db data key is videographer and value is None.
+12/21/12 11:13:44PM  DEBUG db data key is lastUpdated and value is 2012-12-21 23:45:10.
+12/21/12 11:13:44PM  DEBUG db data key is depositionLocation and value is this can't be right!.
+12/21/12 11:13:44PM  DEBUG db data key is submitterEmail and value is fmtest@gmail.com.
+12/21/12 11:13:44PM  DEBUG db data key is depositionDateTime and value is 2012-12-28 10:00:00.
+12/21/12 11:13:44PM  DEBUG db data key is caseCaption and value is Jones vs. Smythe.
+12/21/12 11:13:44PM  DEBUG db data key is foreignLanguage and value is .
+12/21/12 11:13:44PM  DEBUG db data key is textStreamOverInternet and value is None.
+12/21/12 11:13:44PM  INFO There are 5 terms that matched: set([u'Jason Testdemo', u'fmtest@gmail.com', u'Sonia Kay', u'6175351641', u'Jones vs. Smythe'])
+12/21/12 11:13:44PM  INFO There are 5 terms that did not match: set([u'12/22/2012 15:00', u"Plaintiff's Firm", u'179 Lincoln Street, Boston, MA 02109', u'yesterday', u'444'])
